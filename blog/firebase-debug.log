@@ -1,0 +1,36 @@
+[debug] [2021-09-11T20:22:07.815Z] ----------------------------------------------------------------------
+[debug] [2021-09-11T20:22:07.820Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mao\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-09-11T20:22:07.823Z] CLI Version:   8.11.2
+[debug] [2021-09-11T20:22:07.823Z] Platform:      win32
+[debug] [2021-09-11T20:22:07.824Z] Node Version:  v15.12.0
+[debug] [2021-09-11T20:22:07.826Z] Time:          Sat Sep 11 2021 22:22:07 GMT+0200 (Central European Summer Time)
+[debug] [2021-09-11T20:22:07.827Z] ----------------------------------------------------------------------
+[debug] [2021-09-11T20:22:07.827Z] 
+[debug] [2021-09-11T20:22:07.848Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-11T20:22:07.849Z] > authorizing via signed-in user
+[debug] [2021-09-11T20:22:07.850Z] [iam] checking project mohamedamineosmanitk for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-09-11T20:22:07.858Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-11T20:22:07.861Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-11T20:22:11.037Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sat, 11 Sep 2021 20:22:09 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-11T20:22:11.123Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/mohamedamineosmanitk:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-09-11T20:22:12.437Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 11 Sep 2021 20:22:10 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=131","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-11T20:22:12.442Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mohamedamineosmanitk  
+ 
+[debug] [2021-09-11T20:22:23.000Z] Server Error. socket hang up
+[debug] [2021-09-11T20:22:36.301Z] FirebaseError: Server Error. socket hang up
+    at Request._callback (C:\Users\mao\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\mao\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:369:20)
+    at Request.emit (node:domain:470:12)
+    at Request.onRequestError (C:\Users\mao\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (node:events:381:22)
+    at ClientRequest.emit (node:domain:470:12)
+    at TLSSocket.socketOnEnd (node:_http_client:486:9)
+    at TLSSocket.emit (node:events:381:22)
+    at TLSSocket.emit (node:domain:470:12)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[error] 
+[error] Error: Failed to get Firebase project mohamedamineosmanitk. Please make sure the project exists and your account has permission to access it.
