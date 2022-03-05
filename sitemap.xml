@@ -9,54 +9,48 @@
 
 <url>
   <loc>https://mohamedamineosmani.tk/</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/blog</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mohamedamineosmani.tk/blog/cybersecurity/your-first-line-of-defense</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <loc>https://mohamedamineosmani.tk/cybersecurity/why-you-should-learn-the-basics-of-cybersecurity</loc>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mohamedamineosmani.tk/blog/cryptography/what-is-cryptography</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <loc>https://mohamedamineosmani.tk/cybersecurity/your-first-line-of-defense</loc>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mohamedamineosmani.tk/blog/cryptography/symmertric_cryptography/what-is-symmetric-encryption</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <loc>https://mohamedamineosmani.tk/cryptography/what-is-cryptography</loc>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mohamedamineosmani.tk/blog/cryptography/asymmetric_cryptography/what-is-asymmetric-encryption</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <loc>https://mohamedamineosmani.tk/cryptography/symmertric/what-is-symmetric-encryption</loc>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mohamedamineosmani.tk/blog/cryptography/email_encryption/what-is-Email-Encryption</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <loc>https://mohamedamineosmani.tk/cryptography/asymmetric/what-is-asymmetric-encryption</loc>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mohamedamineosmani.tk/blog/cryptography/email_encryption/what-is-pgp</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <loc>https://mohamedamineosmani.tk/cryptography/email/what-is-email-encryption</loc>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mohamedamineosmani.tk/blog/cryptography/pgp/how-to-use-gpg</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
+  <loc>https://mohamedamineosmani.tk/cryptography/pgp/what-is-pgp</loc>
+  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://mohamedamineosmani.tk/blog/cryptography/pgp/how-to-generate-gpg-keys</loc>
-  <lastmod>2022-03-02T20:26:16+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 
 
