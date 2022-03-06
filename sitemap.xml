@@ -9,48 +9,58 @@
 
 <url>
   <loc>https://mohamedamineosmani.tk/</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/blog</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/cybersecurity/why-you-should-learn-the-basics-of-cybersecurity</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/cybersecurity/your-first-line-of-defense</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/cryptography/what-is-cryptography</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/cryptography/symmertric/what-is-symmetric-encryption</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/cryptography/asymmetric/what-is-asymmetric-encryption</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/cryptography/email/what-is-email-encryption</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mohamedamineosmani.tk/cryptography/pgp/what-is-pgp</loc>
-  <lastmod>2022-03-05T09:04:52+00:00</lastmod>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mohamedamineosmani.tk/cryptography/pgp/how-to-use-gpg</loc>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mohamedamineosmani.tk/cryptography/pgp/how-to-generate-gpg-keys</loc>
+  <lastmod>2022-03-06T13:12:41+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
