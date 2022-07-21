@@ -6,6 +6,8 @@
         <meta name="description" content="If you want to know What is asymmetric encryption? then we will talk in this article about it." />
         <meta name="author" content="Mohamed Amine Osmani" />
         <title>What is asymmetric encryption?</title>
+        <link rel="canonical" href="https://mohamedamineosmani/cryptography/asymmetric/what-is-asymmetric-encryption"/>
+
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="../assets/icon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -71,8 +73,8 @@
                            
                         </header>
                         <!-- Preview image figure-->
-                     <img class="mb-5 mt-5" src="../assets/What-is-asymmetric-encryption.png" class="img-fluid" alt="What is asymmetric encryption?">
-                      
+                        <!--                     <img class="mb-5 mt-5" src="../assets/What-is-asymmetric-encryption.png" class="img-fluid" alt="What is asymmetric encryption?">
+                      -->
                         <!-- Post content-->
                         <section class="mb-5">
                         </br>
@@ -83,11 +85,10 @@
 
                             </p>
 <p class="fs-5 mb-4"> 
-If you are asking yourself what is asymmetric encryption?.
+In cryptography, there are asymmetric encryption and symmetric encryption. So what is asymmetric encryption? And why it’s important.
 </p>
 <p class="fs-5 mb-4"> 
-Then in this post, you'll learn:
-
+In today post, you’ll learn:
 </p>
 
 <ul class="fs-5 mb-4 mt-5" >
@@ -98,56 +99,48 @@ How does Asymmetric Encryption work?</li>
 
 </ul>
 <p class="fs-5 mb-4"> 
-So if you’re ready to go “all in” with asymmetric Encryption, this post is for you.
-</p>
+So if you’re ready to go all in with asymmetric Encryption, this post is for you.</p>
 <p class="fs-5 mb-4"> 
-Let’s dive right in.  
-</p>
+Let’s dive right in.</p>
 <p class="fs-5 mb-4">
-Let's assume that you want to send an encrypted message to your friend.
-</p>
-<p class="fs-5 mb-4">
-But there is a big problem.
+
+Let's assume, that you want to send an encrypted message to your friend. but your friend lives outside your country, and you can’t meet him to agree on a shared secret key.
 </p>
 <p class="fs-5 mb-4">
 
- Your friend lives outside your country and you can not meet him to agree on a shared secret key that both of you will use to encrypt and decrypt messages.
+
+Without secret shared key you can’t send encrypted messages with your friend.
+
 </p>
 <p class="fs-5 mb-4">
-
-So until now both of you can not exchange encrypted messages because you do not have a secret key,  and you can not meet him to agree on a secret key.
-</p>
-<p class="fs-5 mb-4">
-
 What will you do?
+
 </p>
 <p class="fs-5 mb-4">
-
-You can use what is called asymmetric encryption instead of using symmetric encryption.
-
+And what is the solution for this problem. you can use asymmetric encryption instead of using symmetric encryption.
 </p>
-
 <h2 class="fw-bolder mt-5 mb-5">
 What is asymmetric encryption?
 </h2>
 <p class="fs-5 mb-4">
  
-When it comes to cryptography there is symmetric encryption and asymmetric encryption also known as public key cryptography.
+When it comes to cryptography, there are symmetric encryption and asymmetric encryption. 
 </p>
 <p class="fs-5 mb-4">
 
-As we have seen in symmetric encryption we use the same key to encrypt and decrypt but in asymmetric encryption, we use two keys one is used for encryption and one used for decryption.
+In symmetric encryption we use the same key to encrypt and decrypt messages. And in asymmetric encryption we use two keys: one is used for encryption and the other for decryption.
+</p>
+<p class="fs-5 mb-4">
 
+The first key is the public key, and we use it for encryption.
 </p>
 <p class="fs-5 mb-4">
-The first key is the private key and it is used for decryption and must be kept secret.
 
+The second key is the private key, and we use it for decryption.
 </p>
 <p class="fs-5 mb-4">
-The second key is the public key and it is used for encryption and is publicly known.
-</p>
-<p class="fs-5 mb-4">
-And they’re called a ‘Public and Private Key Pair.’
+
+Asymmetric encryption also known as public key cryptography.
 </p>
 <h2 class="fw-bolder mt-5 mb-5">
 
@@ -155,84 +148,64 @@ How does Asymmetric Encryption work?
 
 </h2>
 <p class="fs-5 mb-4">
-If you want to encrypt a message and send it to your friend then first you will need to get his public key.
+Let’s assume that, you want to send an encrypted message to your friend.
 </p>
 <p class="fs-5 mb-4">
-
-When you have his public key you can encrypt your message and send it to him.
+What you will do? 
 </p>
 <p class="fs-5 mb-4">
-
-Then he will get your encrypted message and he will use his private key to decrypt it.
-
+First you will need to get his public key because you will need it to encrypt your message.
 </p>
 <p class="fs-5 mb-4">
-When he decrypts your encrypted message he will get the plaintext message.
+When you encrypt your message. You will send it to your friend.
 </p>
 <p class="fs-5 mb-4">
- 
+When your friend get your encrypted message. He will use his private key to decrypt it.
+</p>
+<p class="fs-5 mb-4">
 Let's take a real example:
-
 </p>
 <p class="fs-5 mb-4">
-Let’s assume that You want to send the following message to your closest friend.
-
+You want to tell your friend that you want to meet him tonight at 20:00. you will send him an encrypted message.
 </p>
 <p class="fs-5 mb-4">
-
-The message is “hello I want to meet you tonight at 20:00”
+So what are the steps to send an encrypted message to your friend?
+</p>
+<h4 class="fs-5 mb-4">
+Step one:
+</h4>
+<p class="fs-5 mb-4">
+You will get his public key.
+</p>
+<h4 class="fs-5 mb-4">
+Step two:
+</h4>
+<p class="fs-5 mb-4">
+You will use your friend public key to encrypt your message.
+</p>
+<h4 class="fs-5 mb-4">
+Step three:
+</h4>
+<p class="fs-5 mb-4">
+You will send the encrypted message to your friend.
 </p>
 <p class="fs-5 mb-4">
-Now you want to encrypt this message before sending it.
+When he gets your encrypted message. He will use his private key to decrypt it.
 </p>
 <p class="fs-5 mb-4">
-
-The first step is to get his public key…
-</p>
-<p class="fs-5 mb-4">
-
-When you get his public key you will encrypt the message by using your friend's public key  and then you will send the encrypted message to him.
-</p>
-<p class="fs-5 mb-4">
-
-When he gets your encrypted message.
-
-</p>
-<p class="fs-5 mb-4">
-He will use his private key to decrypt the encrypted message.
-
-</p>
-<p class="fs-5 mb-4">
-After the decryption, he can read your original message “hello I want to meet you tonight at 20:00”
-</p>
-<p class="fs-5 mb-4">
-
-So if you want to send encrypted messages to anyone the first step is to get its public key.
-</p>
-<p class="fs-5 mb-4">
-
-And if anyone wants to send encrypted messages to you he needs to get your public key first.
-
-</p>
-<p class="fs-5 mb-4">
-And then encrypt the messages by using your public key and then send the encrypted messages to you.
- 
+So if you want to send encrypted messages to anyone. the first step is to get his public key, and then you will encrypt it, and then you will send it.
  </p>
 <h3 class="fw-bolder mt-5 mb-5">List of articles about Cryptography:</h3>
-  <p class="fs-5 mb-4">
-The other type of encryption is symmetric encryption for more details read the article:
-</p>
+  
 <p class="fs-5 mb-4">
- <a  href="./symmetric/what-is-symmetric-encryption.html"> What is asymmetric encryption?</a>
+ <a  href="https://mohamedamineosmani/cryptography/symmetric/what-is-symmetric-encryption"> What is symmetric encryption?</a>
 
 
 </p>
 
+
 <p class="fs-5 mb-4">
-For more details about what is cryptography read the article:
-</p>
-<p class="fs-5 mb-4">
- <a  href="./what-is-cryptography.html"> What is cryptography?</a>
+ <a  href="https://mohamedamineosmani/cryptography/what-is-cryptography"> What is cryptography?</a>
 
 </br>
 </br>
